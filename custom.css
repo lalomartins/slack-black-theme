@@ -53,61 +53,6 @@ hr {
    background-color: rgba(0, 0, 0, 0.3);
 }
 
-/* Team Picker */
-.TeamSidebar, .TeamSidebar .StoplightContainer, .TeamSidebar .TeamSidebar-addArea {
-   background-color: var(--background) !important;
-   box-shadow: var(--background) 1px 1px 25px;
-   color: var(--text);
-   z-index: 1;
-}
-
-
-/* Channel selector */
-/*.TeamSidebar, .TeamSidebar .StoplightContainer, .TeamSidebar .TeamSidebar-addArea {*/
-/*nav.p-channel_sidebar {*/
-div.client_channels_list_container {
-   background-color: var(--background-elevated) !important;
-   box-shadow: var(--background-elevated) 1px 1px 25px;
-   color: var(--text);
-   z-index: 1;
-}
-
-nav.p-channel_sidebar {
-   background-color: var(--background-elevated);
-   color: var(--text);
-}
-
-#team_menu,
-body:not(.loading) #team_menu:hover,
-body:not(.loading) #team_menu:active {
-   background-color: var(--background-elevated) !important;
-}
-
-.p-channel_sidebar__channel,
-.p-channel_sidebar__link,
-.p-channel_sidebar__channel:link,
-.p-channel_sidebar__link:link,
-.p-channel_sidebar__channel:visited,
-.p-channel_sidebar__link:visited,
-.p-channel_sidebar__channel:hover,
-.p-channel_sidebar__link:hover {
-   color: var(--text) !important;
-}
-
-/* Channel with unread messages */
-.p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--selected) .p-channel_sidebar__name,
-.p-channel_sidebar__link--unread:not(.p-channel_sidebar__link--selected) .p-channel_sidebar__name,
-.p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim) .p-channel_sidebar__name,
-.p-channel_sidebar__section_heading_label--clickable:hover,
-.p-channel_sidebar__quickswitcher:hover {
-   color: var(--text-bright) !important;
-}
-
-/*broken*/
-__TODO-highlight-indicator {
-   background-color: var(--border-bright) !important;
-   opacity: 1;
-}
 
 #msgs_scroller_div::-webkit-scrollbar-track, .client_container,
 #search_terms, #footer, ts-message, .channel_header, ts-jumper ts-jumper-container,
